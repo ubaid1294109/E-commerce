@@ -1,5 +1,5 @@
 
-const API_URL = 'https://e-commerce-ekwg.vercel.app/'
+const API_URL = 'https://e-commerce-ekwg.vercel.app'
 
 export async function fetchProducts(category = 'All', search = '') {
   const params = new URLSearchParams()
